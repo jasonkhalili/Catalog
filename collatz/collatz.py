@@ -1,7 +1,7 @@
 
-f = open("results.txt", 'w')
+f = open("D://results.txt", 'w')
 
-for i in range(1, 1000):
+for i in range(1, 5000000):
     number = i
     f.write(str(number))
     f.write(": ")
@@ -15,5 +15,5 @@ for i in range(1, 1000):
             f.write(str(number))
             f.write(" ")
     f.write("\n")
-    # print(i)
+    print(i)
 f.close()
